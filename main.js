@@ -1,9 +1,6 @@
-const arr = [
-    'Zen Sama',
-    300,
-    true,
-    {country:'Nepal',city:'Kathmandu'},
-    {skills: ['HTML','CSS','JS','Python','Django','React']}
-];
+// Array split
 
-console.log(arr);
+let js = 'Javascript';
+const charsInJavaScript = js.split('');
+
+console.log(charsInJavaScript);
