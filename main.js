@@ -1,12 +1,12 @@
-// Array split
+// Accessing array items using index
 
-let js = 'Javascript';
-const charsInJavaScript = js.split('');
+const fruits = ['banana', 'orange','mango' , 'lemon'];
+let firstFruit = fruits[0];
+let secondFruit = fruits[1];
 
-let companies = 'Facebook,Google,Microsoft,Apple,IBM,Oracle,Amazon';
-const companiesSplit = companies.split(',');
+let lastIndex = fruits.length - 1;
+let lastFruit = fruits[lastIndex];
 
-let txt =
-  'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
-const words = txt.split(' ');
-console.log(words);
+console.log(firstFruit);
+console.log(secondFruit);
+console.log(lastFruit);
