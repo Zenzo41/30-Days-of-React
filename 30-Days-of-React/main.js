@@ -1,5 +1,2 @@
-const fruits = ['banana', 'orange', 'mango', 'lemon']
-const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] 
-const fruitsAndVegetables = fruits.concat(vegetables)
-
-console.log(fruitsAndVegetables)
+const numbers = [1,2,3,4,6,6];
+console.log(numbers.length);
