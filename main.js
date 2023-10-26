@@ -1,5 +1,14 @@
-const numbers = [0, 3.14, 9.81, 37, 98.6, 100];
+const shoppingCart = [
+    'Milk',
+    'Mango',
+    'Tomato',
+    'Potato',
+    'Avocado',
+    'Meat',
+    'Eggs',
+    'Sugar',
+  ]
 
-let lastIndex = numbers.length - 1;
-console.log(numbers[lastIndex]);
+let lastIndex = shoppingCart.length - 1;
+console.log(shoppingCart[lastIndex]);
 
