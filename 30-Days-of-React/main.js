@@ -1,23 +1,8 @@
-const numbers = [1, 2, 3, 4, 5];
-numbers[3] = 11;
+const arr = Array();
+console.log(arr);
 
-const countries = [
-  'Albania',
-  'Bolivia',
-  'Canada',
-  'Denmark',
-  'Ethiopia',
-  'Finland',
-  'Germany',
-  'Hungary',
-  'Ireland',
-  'Japan',
-  'Kenya',
-]
+const eightEmptyValues = Array(8);
+console.log(eightEmptyValues);
 
-countries[0] = "Nepal";
-
-let lastIndex = countries.length - 1;
-countries[lastIndex] = 'Sri Lanka';
-
-console.log(countries);
+eightEmptyValues[1] =22;
+console.log(eightEmptyValues);
