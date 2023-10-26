@@ -1,12 +1,5 @@
-// Accessing array items using index
+const numbers = [0, 3.14, 9.81, 37, 98.6, 100];
 
-const fruits = ['banana', 'orange','mango' , 'lemon'];
-let firstFruit = fruits[0];
-let secondFruit = fruits[1];
+let lastIndex = numbers.length - 1;
+console.log(numbers[lastIndex]);
 
-let lastIndex = fruits.length - 1;
-let lastFruit = fruits[lastIndex];
-
-console.log(firstFruit);
-console.log(secondFruit);
-console.log(lastFruit);
