@@ -1,5 +1,5 @@
-const firstList = [1,2,3];
-const secondList = [4,5,6];
+const fruits = ['banana', 'orange', 'mango', 'lemon']
+const vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'] 
+const fruitsAndVegetables = fruits.concat(vegetables)
 
-const thirdList = firstList.concat(secondList);
-console.log(thirdList);
+console.log(fruitsAndVegetables)
