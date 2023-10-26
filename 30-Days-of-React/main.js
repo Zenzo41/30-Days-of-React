@@ -1,8 +1,2 @@
-const arr = Array();
-console.log(arr);
-
-const eightEmptyValues = Array(8).fill('X');
-console.log(eightEmptyValues);
-
-eightEmptyValues[1] =22;
-console.log(eightEmptyValues);
+const four4values = Array(4).fill(4);
+console.log(four4values);
